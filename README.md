@@ -31,15 +31,11 @@ Graphql Gateway from Rest API
 The project is structured in the following syntax (root is the root directory of your project):
   - `root/build` is the build folder when you execute `yarn build`. See script section below. 
   
-  - `root/config` is the config folder for most applications. Database, for example.
-  
   - `root/coverage` is the "tests report" folder when you execute `yarn test`. See script section below.
   
   - `root/coverage/Icov-report/index.html` is the web application for tests report.
 
   - `root/logs` is the rotative logs folder.
-
-  - `root/migrations` is the migrations folder.
 
   - `root/src` is the source folder of your project.
   
