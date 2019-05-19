@@ -19,7 +19,7 @@ Graphql Gateway from Rest API
 	- [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 4. Clone this repository
-`git clone --depth=1 https://github.com/hemicharly/graphql-microservicesB.git`
+`git clone https://github.com/hemicharly/graphql-gateway-rest-api.git`
 
 5. Install the project dependencies
 `yarn`
