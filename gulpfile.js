@@ -1,7 +1,6 @@
 const gulp = require('gulp')
 const env = require('./tasks/env')
 const build = require('./tasks/build')
-const knex = require('./tasks/knex')
 
 gulp.task('env-dev', env.development)
 gulp.task('env-prod', env.production)
@@ -14,4 +13,3 @@ gulp.task('build-modules', build.modules)
 
 const buildTask = gulp.series('build-clean', 'build-make', 'build-modules')
 gulp.task('build', buildTask)
-gulp.task('knex', knex)

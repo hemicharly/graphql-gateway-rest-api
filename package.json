@@ -1,5 +1,5 @@
 {
-  "name": "graphql-microservicesB",
+  "name": "graphql-gateway-rest-api",
   "version": "0.0.2",
   "private": true,
   "author": "Hemicharly Thiago",
@@ -13,7 +13,7 @@
     "dev": "nodemon --exec \"yarn babel:dev\"",
     "babel:dev": "gulp --silent env-dev && babel-node ./index.js",
     "babel:build": "gulp --silent env-prod && gulp --silent build",
-    "build": "yarn lint && yarn test && yarn babel:build",
+    "build": "yarn lint && yarn babel:build",
     "test": "gulp --silent env-test && jest --coverage",
     "test:watch": "yarn test --watch",
     "lint": "gulp --silent env-lint && standard",

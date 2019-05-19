@@ -21,9 +21,7 @@
 5. Install the project dependencies
 `yarn`
 
-6. Configure your db connection (Default PG connection installed and configured, see `.env` file). See `Installation -> Node.js` section [here](https://knexjs.org/).
-
-7. Delete `.git` folder to disassociate yourself from this project.
+6. Delete `.git` folder to disassociate yourself from this project.
 
 ####    Folder struct
 
@@ -53,7 +51,7 @@ The project is structured in the following syntax (root is the root directory of
 See below all availables `package.json` scripts:
   - `yarn dev` start your application in development mode, with [nodemon](https://nodemon.io/) to restart on changes.
   
-  - `yarn build` build your application to production mode, with [babel](https://babeljs.io/) parsing (ES6 to ES5). Pre-scripts: `yarn lint` and `yarn test`.
+  - `yarn build` build your application to production mode, with [babel](https://babeljs.io/) parsing (ES6 to ES5). Pre-scripts: `yarn lint`.
   
   - `yarn test` run all test files matched by the pattern `*.test.js`. [See more](https://jestjs.io/).
   
@@ -62,5 +60,3 @@ See below all availables `package.json` scripts:
   - `yarn lint` run `standard` for lint erros.
   
   - `yarn lint:fix` fix all lint errors automatically (unstable).
-
-  - `yarn knex --command "<knex command>"` Execute a command through Knex CLI.

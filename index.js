@@ -9,7 +9,6 @@ import rfs from 'rotating-file-stream'
 import path from 'path'
 import { fileLoader, mergeTypes, mergeResolvers } from 'merge-graphql-schemas'
 import { ApolloServer } from 'apollo-server-express'
-import db from 'config/database'
 
 // Load env variables
 dotenv.config({
@@ -26,7 +25,6 @@ const resolvers = mergeResolvers(fileLoader(resolversFolder))
 
 // Middleware function
 const context = ({ req, res }) => ({
-  db,
   token: req.headers.authorization
 })
 

@@ -1,7 +1,3 @@
-/**
- * Schema file
-*/
-
 import { gql } from 'apollo-server-express'
 import types from './types'
 import queries from './queries'
